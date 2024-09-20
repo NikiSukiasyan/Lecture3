@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>რეგისტრაცია</title>
+  </head>
+  <body>
+    <div style="width: 500px; height: 500px; background-color: grey">
+      <form>
+        <div>
+          <label for="name">სახელი</label>
+          <input type="text" id="name" />
+        </div>
+        <div>
+          <label for="lastname">გვარი</label>
+          <input type="text" id="lastname" />
+        </div>
+        <div>
+          <label for="email">ელფოსტა</label>
+          <input type="email" id="email" />
+        </div>
+        <div>
+          <label for="password">პაროლი</label>
+          <input type="password" id="password" required minlength="8" />
+        </div>
+        <div>
+          <label for="">სქესი</label>
+          <label for="Female">Female</label>
+          <input type="radio" id="Female" name="gender" />
+          <label for="Male">Male</label>
+          <input type="radio" id="Male" name="gender" />
+          <label for="Mexanik">Mexanik</label>
+          <input type="radio" id="Mexanik" name="gender" />
+        </div>
+        <!-- <input type="submit" /> -->
+        <button
+          type="submit"
+          style="
+            width: 100px;
+            height: 50px;
+            background-color: aqua;
+            color: black;
+          "
+        >
+          გაგზავნა
+        </button>
+      </form>
+    </div>
+    <a href="../index.html">უკან დაბრუნება</a>
+  </body>
+</html>
